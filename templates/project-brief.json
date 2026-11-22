@@ -1,0 +1,23 @@
+{
+  "project_name": "",
+  "artifact_references": [],
+  "artifact_version": "",
+  "medium": "unknown",
+  "mode": "review",
+  "audience": "",
+  "primary_message_or_task": "",
+  "viewing_context": "",
+  "dimensions_or_breakpoints": [],
+  "language_and_direction": "unknown",
+  "brand_constraints": [],
+  "approved_references": [],
+  "scoped_exceptions": [],
+  "design_maturity": "unknown",
+  "review_depth": "focused",
+  "editing_tool": "unknown",
+  "requested_modules": [],
+  "assumptions": [],
+  "scope_exclusions": [],
+  "rubric_version": "1.1.0"
+}
+

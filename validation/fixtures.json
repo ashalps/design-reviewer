@@ -1,0 +1,123 @@
+[
+  {
+    "name": "fully_observed",
+    "criteria": [
+      {
+        "weight": 100,
+        "status": "observed",
+        "rating": 4
+      }
+    ],
+    "expected": {
+      "score": 80,
+      "coverage": 100,
+      "provisional": false
+    }
+  },
+  {
+    "name": "partial_evidence",
+    "criteria": [
+      {
+        "weight": 60,
+        "status": "observed",
+        "rating": 3.75
+      },
+      {
+        "weight": 40,
+        "status": "unverified",
+        "rating": null
+      }
+    ],
+    "expected": {
+      "score": 75,
+      "coverage": 60,
+      "provisional": true
+    }
+  },
+  {
+    "name": "not_applicable",
+    "criteria": [
+      {
+        "weight": 50,
+        "status": "observed",
+        "rating": 4
+      },
+      {
+        "weight": 50,
+        "status": "na",
+        "rating": null
+      }
+    ],
+    "expected": {
+      "score": 80,
+      "coverage": 100,
+      "provisional": false
+    }
+  },
+  {
+    "name": "no_evidence",
+    "criteria": [
+      {
+        "weight": 100,
+        "status": "unverified",
+        "rating": null
+      }
+    ],
+    "expected": {
+      "score": null,
+      "coverage": 0,
+      "provisional": true
+    }
+  },
+  {
+    "name": "nothing_applicable",
+    "criteria": [
+      {
+        "weight": 100,
+        "status": "na",
+        "rating": null
+      }
+    ],
+    "expected": {
+      "score": null,
+      "coverage": null,
+      "provisional": false
+    }
+  },
+  {
+    "name": "critical_observed_failure",
+    "criteria": [
+      {
+        "weight": 100,
+        "status": "observed",
+        "rating": 0
+      }
+    ],
+    "expected": {
+      "score": 0,
+      "coverage": 100,
+      "provisional": false
+    }
+  },
+  {
+    "name": "coverage_rounding_boundary",
+    "criteria": [
+      {
+        "weight": 69.6,
+        "status": "observed",
+        "rating": 4
+      },
+      {
+        "weight": 30.4,
+        "status": "unverified",
+        "rating": null
+      }
+    ],
+    "expected": {
+      "score": 80,
+      "coverage": 70,
+      "provisional": true
+    }
+  }
+]
+

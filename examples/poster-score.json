@@ -1,0 +1,40 @@
+{
+  "name": "fictional_poster_example",
+  "criteria": [
+    {
+      "weight": 25,
+      "status": "observed",
+      "rating": 4
+    },
+    {
+      "weight": 25,
+      "status": "observed",
+      "rating": 3
+    },
+    {
+      "weight": 20,
+      "status": "observed",
+      "rating": 3
+    },
+    {
+      "weight": 15,
+      "status": "observed",
+      "rating": 5
+    },
+    {
+      "weight": 10,
+      "status": "observed",
+      "rating": 4
+    },
+    {
+      "weight": 5,
+      "status": "unverified",
+      "rating": null
+    }
+  ],
+  "expected": {
+    "score": 74,
+    "coverage": 95,
+    "provisional": false
+  }
+}

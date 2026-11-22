@@ -1,0 +1,11 @@
+{
+  "version": "1.1.0",
+  "date": "2026-11-22",
+  "working_validation": "PASS: links, metadata, 7 standalone contracts, matching weights, JSON, 7 scoring fixtures and 4 invalid-input checks.\nPASS: shared refinement guidance, plain-language guidance and fictional example arithmetic.\nStructural/scoring verification only; no live-design or cross-model benchmark performed.",
+  "distribution_validation": "PASS: links, metadata, 7 standalone contracts, matching weights, JSON, 7 scoring fixtures and 4 invalid-input checks.\nPASS: shared refinement guidance, plain-language guidance and fictional example arithmetic.\nStructural/scoring verification only; no live-design or cross-model benchmark performed.",
+  "extracted_validation": "PASS: links, metadata, 7 standalone contracts, matching weights, JSON, 7 scoring fixtures and 4 invalid-input checks.\nPASS: shared refinement guidance, plain-language guidance and fictional example arithmetic.\nStructural/scoring verification only; no live-design or cross-model benchmark performed.",
+  "zip_crc": "passed",
+  "zip_manifest_and_bytes": "passed",
+  "new_user_test": "authoring-agent desk check only",
+  "live_design_benchmark": "not performed"
+}
